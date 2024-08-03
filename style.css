@@ -168,6 +168,10 @@ margin: 20px;
     padding: 20px;
     margin: 20px;
     text-align: center;
+    transition: .5s all ease-in;
+}
+.grid_card:hover{
+  transform:scale(1.1);
 }
 .grid_Img{
     height: 50px;
@@ -177,4 +181,16 @@ margin: 20px;
 margin-top: 10px;
 text-transform: capitalize;
 border-radius: 10px;
+}
+.mapped_container{
+    background-image: linear-gradient(
+        #26272B ,
+        #26272B) , url("./Assets/Map.png");
+        padding: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+}
+.mapped_container_P{
+    margin: 10px;
 }
