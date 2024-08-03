@@ -93,6 +93,10 @@ color: white;
     margin: 20px;
 }
 /* About DIV STYLING */
+.about_US{
+    display: flex;
+    justify-content: space-between;
+}
 .who{
 font-family: Lato;
 font-size: 1rem;
@@ -112,10 +116,19 @@ font-size: 2rem;
 .innerDiv_img{
     height: 50px;
     width: 50px;
-    margin: 20px;
+    margin: 10px;
 }
-.innerDiv_1{
-    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.486);
+.inner_div_P{
+    padding: 10px;
+}
+.innerDiv_Box{
+    border-radius: 10px;
+     padding: 10px;
+     margin: 20px;
+     transition: .3s ease-in all;
+}
+.innerDiv_Box:hover{
+    box-shadow: 2px 2px 2px 2px #0000002a;
 }
 .svg_Div{
     display: flex;
@@ -125,4 +138,23 @@ font-size: 2rem;
 }
 .about_Inner_Div{
     display: flex;
+}
+.inner_div_btn{
+    /* width: 180px; */
+    background-color: #37C760;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.about_Text_Box{
+    height: 500px;
+    width:500px; 
+}
+.factory{
+height: 600px;
+width:600px;
+margin: 20px;
 }
