@@ -112,4 +112,17 @@ font-size: 2rem;
 .innerDiv_img{
     height: 50px;
     width: 50px;
+    margin: 20px;
+}
+.innerDiv_1{
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.486);
+}
+.svg_Div{
+    display: flex;
+}
+.svg , .svg_P{
+    margin: 10px;
+}
+.about_Inner_Div{
+    display: flex;
 }
