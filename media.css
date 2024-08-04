@@ -278,6 +278,7 @@
         border-radius: 100%;
         width: 40px;
         transform: translateX(180px);
+        text-align: center;
     }
     .Goal_Boxe_P{
         padding: 20px;
