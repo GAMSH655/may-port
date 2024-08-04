@@ -257,3 +257,43 @@ line-height: 26px;
 text-align: center;
 color: white;
 }
+.Goal_div{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    text-align: center;
+}
+.goal_Boxes{
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.goal_Number{
+    font-weight: bolder;
+    background-image:linear-gradient(#37C760, #1375D7);
+    padding: 10px;
+    border-radius: 100%;
+    width: 40px;
+    transform: translateX(130px);
+}
+.Goal_Boxe_P{
+    padding: 20px;
+}
+.goal_Btn{
+    background-color: #37C760;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.inner_goal_boxes{
+    box-shadow: 2px 2px 2px 2px #0000002a;
+    margin-top: 20px;
+    padding: 20px;
+    transition: .5s all ease-in;
+    border-radius: 10px;
+}
+.inner_goal_boxes:hover{
+    background-color: #E2F6E7;
+}
