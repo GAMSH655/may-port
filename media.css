@@ -269,6 +269,7 @@
         margin: 0px;
         padding: 30px;
         border-radius: 10px;
+        text-align: center;
     }
     .goal_Number{
         font-weight: bolder;
@@ -348,7 +349,7 @@ input{
     border: none;
     outline: none;
     padding: 10px;
-    width: 420px;
+    width: 280px;
 }
 form{
     margin: 20px;
@@ -362,7 +363,7 @@ form{
     border-radius: 10px;
     text-transform: capitalize;
     margin-top: 10px;
-    width: 100%;
+    width: 180px;
 }
 .form_p{
     margin-bottom: 10px;
