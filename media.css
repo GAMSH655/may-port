@@ -262,8 +262,8 @@
          justify-content: space-around;
          align-items: center;
          flex-wrap: wrap;
-        /* text-align: center; */
-        margin-top: 0px;
+         text-align: center;
+         margin-top: 0px;
     }
     .goal_Boxes{
         margin: 0px;
@@ -276,7 +276,7 @@
         padding: 10px;
         border-radius: 100%;
         width: 40px;
-        transform: translateX(130px);
+        transform: translateX(180px);
     }
     .Goal_Boxe_P{
         padding: 20px;
@@ -333,7 +333,78 @@
         border: none;
         border-radius: 10px;
         text-transform: capitalize;
-        transform: translateX(80px);
+        transform: translateX(130px);
+        margin: 10px;
     }
+footer{
+    padding: 0px;
+    background-image: linear-gradient( to right,#26272B, #0C153C);
+}
+.signUp{
+    margin: 20px;
+    color: #FFFFFF;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 420px;
+}
+form{
+    margin: 20px;
+}
+.footer_BTn{
+    background-color: #37C760;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    width: 100%;
+}
+.form_p{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #fff;;
+}
+.footer_first_div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #756A6A;
+}
+.div_1{
+    margin-top: 0px;
+}
+.footer_down_div{
+    display: block;
+    border-bottom: 2px solid  #756A6A;
+}
+.footer_down_card{
+    margin-top: 0px;
+  
+}
+.footer_down_div_title{
+    font-size: 1.3rem;
+    color: white;
+    text-transform: capitalize;
+    margin: 20px;
+}
+.footer_down_div_paragraph{
+    margin: 20px;
+    color: white;
+}
+.Footer_Logo{
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-weight: 00;
+    line-height: 44px;
+    color: #37C760;
+    font-family: sans-serif;  
+    margin: 10px;
+}
     
 }
