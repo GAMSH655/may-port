@@ -1,0 +1,339 @@
+@media  only screen  and (max-width:768px){
+    @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    .header{
+        background-color: #0C153C;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    .headerLogo{
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-weight: 00;
+    line-height: 44px;
+    color: #37C760;
+    font-family: sans-serif;
+    }
+    .link_Container{
+         margin-right: 200px;
+         margin-top: 10px;
+         display: none;
+    }
+    .nav_link{
+     text-decoration: none;
+     color:white;
+     margin: 10px;
+     text-transform: capitalize;
+    }
+    .headerBTn{
+        background-color: #37C760;
+        color: white;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        width: 150px;
+        text-transform: capitalize;
+    }
+    .Hero_Section{
+        background-image: linear-gradient(#00000065 , #00000065) , url("./Assets//Engineer.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 50px;
+    }
+    .hero_Title{
+    /* styleName: Display Large; */
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+    text-align: center;
+    color: white;
+    }
+    .Hero_p{
+        text-align: center;  
+        margin-top: 10px;
+        color: white;
+        line-height: 20px;
+    }
+    .hero_Btn{
+        width: 180px;
+        background-color: #37C760;
+        color: white;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        text-transform: capitalize;
+        transform: translateX(50px);
+        margin-top: 30px;
+    }
+    .black_Div{
+        background-color: #26272B;
+        margin: 0px;
+    }
+    .trusted{
+        text-align: center;
+        padding: 10px;
+        color: #FFFFFF;
+        font-size: 1rem;
+    }
+    .num{
+        font-size: 2rem;
+    }
+    .black_div_Img{
+        filter: grayscale();
+        margin: 0px;
+    }
+    /* About DIV STYLING */
+    .about_US{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .who{
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 14.4px;
+    padding: 15px;
+    }
+    .about_us{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 2rem;
+     padding: 14px;
+    }
+    .about_paragraph{
+        padding: 15px;
+    }
+    .innerDiv_img{
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+    }
+    .inner_div_P{
+        padding: 10px;
+    }
+    .innerDiv_Box{
+        border-radius: 10px;
+         padding: 10px;
+         margin: 20px;
+         transition: .3s ease-in all;
+    }
+    .innerDiv_Box:hover{
+        box-shadow: 2px 2px 2px 2px #0000002a;
+    }
+    .svg_Div{
+        display: flex;
+    }
+    .svg , .svg_P{
+        margin: 10px;
+    }
+    .about_Inner_Div{
+        display: flex;
+    }
+    .inner_div_btn{
+        /* width: 180px; */
+        background-color: #37C760;
+        color: white;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        text-transform: capitalize;
+    }
+    .about_Text_Box{
+        height: 500px;
+        width:500px; 
+    }
+    .factory{
+     width: 100%;
+    margin: 0px;
+    }
+    /* GRID STYLING */
+    .grid_Container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .grid_card{
+        box-shadow: 2px 2px 2px 2px #0000002a;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+        transition: .5s all ease-in;
+    }
+    .grid_card:hover{
+      transform:scale(1.1);
+    }
+    .grid_Img{
+        height: 50px;
+        width: 50px;
+    }
+    .grid_Text{
+    margin-top: 10px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    }
+    .mapped_container{
+        background-image: linear-gradient(
+            #26272B ,
+            #26272B) , url("./Assets/Map.png");
+            padding: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 30px;
+    }
+    .mapped_container_P{
+        margin: 10px;
+    }
+    .our{
+        /* //styleName: Body Small; */
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 14.4px;
+    margin: 20px;
+    text-align: center;
+    }
+    .services_title{
+        font-family: Lato;
+        font-size: 1.5rem;
+        line-height: 14.4px;
+        font-weight: 200;
+        margin: 25px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .three_divs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .three_divs_img{
+        height: 300px;
+         width: 300px;
+    }
+    .div_card{
+    margin: 20px;
+    background-color: #E7EBEF;
+    ;
+    
+    }
+    .bottom_div{
+        background-color:  #26272B;
+        padding: 20px;
+    }
+    .small_img{
+        position: relative;
+        bottom: 35px;
+        left: 110px;
+        height: 50px;
+        width: 50px;
+    }
+    .title{
+        text-align: center;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: white;
+    }
+    .div_card_P{
+        text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    }
+    .Goal_div{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         flex-wrap: wrap;
+        /* text-align: center; */
+        margin-top: 0px;
+    }
+    .goal_Boxes{
+        margin: 0px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .goal_Number{
+        font-weight: bolder;
+        background-image:linear-gradient(#37C760, #1375D7);
+        padding: 10px;
+        border-radius: 100%;
+        width: 40px;
+        transform: translateX(130px);
+    }
+    .Goal_Boxe_P{
+        padding: 20px;
+    }
+    .goal_Btn{
+        background-color: #37C760;
+        color: white;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        text-transform: capitalize;
+    }
+    .inner_goal_boxes{
+        box-shadow: 2px 2px 2px 2px #0000002a;
+        margin-top: 20px;
+        padding: 20px;
+        transition: .5s all ease-in;
+        border-radius: 10px;
+    }
+    .inner_goal_boxes:hover{
+        background-color: #E2F6E7;
+    }
+    .Oil_rig{
+        background-image: linear-gradient(
+            #00000075,
+            #00000075) , url("./Assets//OIL_Rig.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: 0px;
+            margin: 0px;
+    }
+    .Oil_Title{
+    font-family: Lato;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+    text-align: center;
+    color: white;
+    }
+    .oil_title{
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+    .Oil_Btn{
+        width: 180px;
+        background-color: #37C760;
+        color: white;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        text-transform: capitalize;
+        transform: translateX(80px);
+    }
+    
+}
