@@ -152,10 +152,15 @@
         text-transform: capitalize;
     }
   
+      .factory_Div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        /* width:100%; */
+      }
     .factory{
-     width: 200px;
-     height: 200px;
-     margin: 0px;
+     width: 100%;
     }
     /* GRID STYLING */
     .grid_Container{
