@@ -155,7 +155,7 @@
     .factory{
      width: 400px;
      height: 400px;
-     margin: 50px;
+     margin: 0px;
     }
     /* GRID STYLING */
     .grid_Container{
@@ -229,8 +229,6 @@
     .div_card{
     margin: 20px;
     background-color: #E7EBEF;
-    ;
-    
     }
     .bottom_div{
         background-color:  #26272B;
