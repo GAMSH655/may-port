@@ -138,7 +138,6 @@ font-size: 2rem;
 }
 .about_Inner_Div{
     display: flex;
-    width: 100%;
 }
 .inner_div_btn{
     /* width: 180px; */
@@ -150,20 +149,15 @@ font-size: 2rem;
     border-radius: 10px;
     text-transform: capitalize;
 }
-.about_Text_Box{
-    height: 500px;
-    width:500px; 
-}
 .factory{
 height: 600px;
 width:600px;
-margin: 20px;
 }
 /* GRID STYLING */
 .grid_Container{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .grid_card{
     box-shadow: 2px 2px 2px 2px #0000002a;

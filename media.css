@@ -91,7 +91,7 @@
     /* About DIV STYLING */
     .about_US{
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         flex-wrap: wrap;
     }
     .who{
@@ -123,18 +123,23 @@
          padding: 10px;
          margin: 20px;
          transition: .3s ease-in all;
+         width: 100%;
+         text-align: center;
     }
     .innerDiv_Box:hover{
         box-shadow: 2px 2px 2px 2px #0000002a;
     }
     .svg_Div{
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .svg , .svg_P{
         margin: 10px;
     }
     .about_Inner_Div{
         display: flex;
+        flex-wrap: wrap;
     }
     .inner_div_btn{
         /* width: 180px; */
@@ -146,13 +151,11 @@
         border-radius: 10px;
         text-transform: capitalize;
     }
-    .about_Text_Box{
-        height: 500px;
-        width:500px; 
-    }
+  
     .factory{
-     width: 100%;
-    margin: 0px;
+     width: 400px;
+     height: 400px;
+     margin: 50px;
     }
     /* GRID STYLING */
     .grid_Container{
@@ -160,6 +163,7 @@
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+      margin-top: 30px;
     }
     .grid_card{
         box-shadow: 2px 2px 2px 2px #0000002a;
@@ -167,6 +171,7 @@
         margin: 20px;
         text-align: center;
         transition: .5s all ease-in;
+        width: 100%;
     }
     .grid_card:hover{
       transform:scale(1.1);
