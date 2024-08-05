@@ -336,6 +336,9 @@ footer{
     padding: 50px;
     background-image: linear-gradient( to right,#26272B, #0C153C);
 }
+.footerP{
+    color: white;
+}
 .signUp{
     margin: 20px;
     color: #FFFFFF;

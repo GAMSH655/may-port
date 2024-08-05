@@ -280,7 +280,7 @@
         padding: 10px;
         border-radius: 100%;
         width: 40px;
-        transform: translateX(180px);
+        transform: translateX(130px);
         text-align: center;
     }
     .Goal_Boxe_P{
@@ -338,7 +338,7 @@
         border: none;
         border-radius: 10px;
         text-transform: capitalize;
-        transform: translateX(130px);
+        transform: translateX(80px);
         margin: 10px;
     }
 footer{
